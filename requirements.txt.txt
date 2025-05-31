@@ -1,0 +1,4 @@
+streamlit
+pydicom
+numpy
+opencv-python-headless
