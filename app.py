@@ -179,10 +179,10 @@ def main():
 
         st.image(processed, caption=f"Slice {slice_idx+1} | Filter: {filter_type} | Zoom: {zoom_factor}x", use_container_width=True, clamp=True)
 
-        st.markdown("#### 🛠️ Controls")
+        st.markdown("#### Controls")
         st.markdown("""
         - Adjust **brightness** and **contrast** with sliders  
-        - Select **filters** from dropdown menu (see explanation above)  
+        - Select **filters** from dropdown menu  
         - Use **zoom** slider to zoom in/out  
         - Use **slice slider** (if multiple files) to navigate slices  
         """)
